@@ -49,11 +49,37 @@
    }
 
   .header {
-       background-image: url(../assets/images/header-bg-img.jpg);
-       background-position: center;
-       background-repeat: no-repeat;
+       background-image: url(../assets/images/header_bg_img.jpg);
+       background-position: flex;
+       background-repeat: flex;
        height: 100vh;
-       
+       display: flex;
    }
 
-  
+  .header__menu {
+    font-family: Muli;
+    font-size: 16px;
+    line-height: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    color: #6e1010;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header__btn{
+    width: 280px;
+height: 70px;
+background-color: #0aa566;
+border-radius: 35px;
+  }
+
+  .logo__link{
+    width: 211px;
+    height: 72px;
+    background-color: #ffffff;
+  }
+
