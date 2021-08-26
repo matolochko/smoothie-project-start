@@ -56,26 +56,27 @@
        display: flex;
    }
 
-  .header__menu {
+  .header__top{
     font-family: Muli;
     font-size: 16px;
     line-height: 40px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.02em;
-    color: #6e1010;
-    flex-direction: row;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    color: #ffffff;
+    justify-content: center;
+  }
+
+  .header__logo{
+
   }
 
   .header__btn{
     width: 280px;
-height: 70px;
-background-color: #0aa566;
-border-radius: 35px;
-  }
+    height: 70px;
+    background-color: #0aa566;
+    border-radius: 35px;
+}
 
   .logo__link{
     width: 211px;
